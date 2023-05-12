@@ -1,0 +1,9 @@
+[package]
+name = 'proving'
+version = '1.0.0'
+
+[addresses]
+proving = "0x1"
+
+[dependencies]
+AptosFramework = {git = 'https://github.com/aptos-labs/aptos-core.git', rev = 'devnet', subdir = 'aptos-move/framework/aptos-framework'}
